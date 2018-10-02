@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mcetin/Dev/cpp/hr_rank/bots/game.hpp
+vector
+-
+string
+-
+iostream
+-
+exception
+-
+
+/Users/mcetin/Dev/cpp/hr_rank/bots/main.cpp
+iostream
+-
+exception
+-
+game.hpp
+/Users/mcetin/Dev/cpp/hr_rank/bots/game.hpp
+
