@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/Users/mcetin/Dev/cpp/hr_rank/bots/game.cpp
+game.hpp
+/Users/mcetin/Dev/cpp/hr_rank/bots/game.hpp
+vector
+-
+algorithm
+-
+random
+-
+
 /Users/mcetin/Dev/cpp/hr_rank/bots/game.hpp
 vector
 -
@@ -15,12 +25,4 @@ iostream
 -
 exception
 -
-
-/Users/mcetin/Dev/cpp/hr_rank/bots/main.cpp
-iostream
--
-exception
--
-game.hpp
-/Users/mcetin/Dev/cpp/hr_rank/bots/game.hpp
 

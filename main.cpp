@@ -10,6 +10,8 @@ int main() {
     std::cout << e.what();
   }
 
+  brd.CastDirt(25);
+
   brd.Print();
   return 0;
 }
