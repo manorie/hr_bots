@@ -70,29 +70,29 @@ CMakeFiles/game.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mcetin/Dev/cpp/hr_rank/bots/main.cpp -o CMakeFiles/game.dir/main.cpp.s
 
-CMakeFiles/game.dir/game.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/game.cpp.o: game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mcetin/Dev/cpp/hr_rank/bots/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/game.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/game.cpp.o -c /Users/mcetin/Dev/cpp/hr_rank/bots/game.cpp
+CMakeFiles/game.dir/board.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/board.cpp.o: board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mcetin/Dev/cpp/hr_rank/bots/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/board.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/board.cpp.o -c /Users/mcetin/Dev/cpp/hr_rank/bots/board.cpp
 
-CMakeFiles/game.dir/game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/game.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mcetin/Dev/cpp/hr_rank/bots/game.cpp > CMakeFiles/game.dir/game.cpp.i
+CMakeFiles/game.dir/board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/board.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mcetin/Dev/cpp/hr_rank/bots/board.cpp > CMakeFiles/game.dir/board.cpp.i
 
-CMakeFiles/game.dir/game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/game.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mcetin/Dev/cpp/hr_rank/bots/game.cpp -o CMakeFiles/game.dir/game.cpp.s
+CMakeFiles/game.dir/board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/board.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mcetin/Dev/cpp/hr_rank/bots/board.cpp -o CMakeFiles/game.dir/board.cpp.s
 
 # Object files for target game
 game_OBJECTS = \
 "CMakeFiles/game.dir/main.cpp.o" \
-"CMakeFiles/game.dir/game.cpp.o"
+"CMakeFiles/game.dir/board.cpp.o"
 
 # External object files for target game
 game_EXTERNAL_OBJECTS =
 
 game: CMakeFiles/game.dir/main.cpp.o
-game: CMakeFiles/game.dir/game.cpp.o
+game: CMakeFiles/game.dir/board.cpp.o
 game: CMakeFiles/game.dir/build.make
 game: CMakeFiles/game.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mcetin/Dev/cpp/hr_rank/bots/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable game"

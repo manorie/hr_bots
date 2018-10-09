@@ -8,5 +8,5 @@ project(game)
 add_executable(
   game
   main.cpp
-  game.cpp
+  board.cpp
 )

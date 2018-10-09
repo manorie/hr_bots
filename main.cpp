@@ -1,17 +1,13 @@
 #include <iostream>
 #include <exception>
-#include "game.hpp"
+#include "board.hpp"
 
 int main() {
-  Game::Board brd = Game::Board(10, 10);
-  try {
-    brd.PlacePlayer(5, 4);
-  } catch(std::exception& e) {
-    std::cout << e.what();
-  }
+  game::masked_board brd = game::masked_board(5, 5);
 
-  brd.CastDirt(25);
+  brd.cast_dirt(10);
+  brd.set_player(3, 3);
 
-  brd.Print();
+  brd.print_board();
   return 0;
 }

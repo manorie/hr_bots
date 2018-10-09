@@ -123,32 +123,32 @@ game/fast:
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/build
 .PHONY : game/fast
 
-game.o: game.cpp.o
+board.o: board.cpp.o
 
-.PHONY : game.o
+.PHONY : board.o
 
 # target to build an object file
-game.cpp.o:
-	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game.cpp.o
-.PHONY : game.cpp.o
+board.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/board.cpp.o
+.PHONY : board.cpp.o
 
-game.i: game.cpp.i
+board.i: board.cpp.i
 
-.PHONY : game.i
+.PHONY : board.i
 
 # target to preprocess a source file
-game.cpp.i:
-	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game.cpp.i
-.PHONY : game.cpp.i
+board.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/board.cpp.i
+.PHONY : board.cpp.i
 
-game.s: game.cpp.s
+board.s: board.cpp.s
 
-.PHONY : game.s
+.PHONY : board.s
 
 # target to generate assembly for a file
-game.cpp.s:
-	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game.cpp.s
-.PHONY : game.cpp.s
+board.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/board.cpp.s
+.PHONY : board.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... game"
-	@echo "... game.o"
-	@echo "... game.i"
-	@echo "... game.s"
+	@echo "... board.o"
+	@echo "... board.i"
+	@echo "... board.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
