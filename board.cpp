@@ -15,6 +15,10 @@ namespace game {
     space[y*size_x+x] = c;
   }
 
+  position board::get_player() {
+    return player;
+  }
+
   void board::cast_dirt(int number) {
     std::vector<position> empty_cells;
 
@@ -77,5 +81,59 @@ namespace game {
       }
       std::cout << std::endl;
     }
+  }
+
+  void play::print_board() {
+    brd.print_board();
+  }
+
+  void play::move(action act) {
+    actions++;
+    position player = brd.get_player();
+
+    switch (act) {
+      case up:
+        brd.set_player(player.x - 1, player.y);
+        break;
+      case down:
+        brd.set_player(player.x + 1, player.y);
+        break;
+      case left:
+        brd.set_player(player.x, player.y - 1);
+        break;
+      case right:
+        brd.set_player(player.x, player.y + 1);
+        break;
+      case clear:
+        if (brd.get_cell(player.x, player.y) != dirty) {
+          ended = true;
+          return;;
+        }
+        brd.set_cell(player.x, player.y, clean);
+    }
+  }
+
+  int board::get_size_x() {
+    return size_x;
+  }
+
+  int board::get_size_y() {
+    return size_y;
+  }
+
+  int play::dirt_left() {
+    int dirt = 0;
+     for (int i = 0; i < brd.get_size_x(); i++) {
+      for (int j = 0; j < brd.get_size_y(); j++) {
+          if (brd.get_cell(i, j) == dirty) {
+            dirt++;
+          }
+        }
+     }
+     return dirt;
+  }
+
+  bool play::is_ended() {
+    return ended;
   }
 }  // namespace game

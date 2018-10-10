@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/mcetin/Dev/cpp/hr_rank/bots/board.cpp
+board.hpp
+/Users/mcetin/Dev/cpp/hr_rank/bots/board.hpp
+
 /Users/mcetin/Dev/cpp/hr_rank/bots/board.hpp
 string
 -
@@ -15,12 +19,4 @@ random
 -
 iostream
 -
-
-/Users/mcetin/Dev/cpp/hr_rank/bots/main.cpp
-iostream
--
-exception
--
-board.hpp
-/Users/mcetin/Dev/cpp/hr_rank/bots/board.hpp
 
