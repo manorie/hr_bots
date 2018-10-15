@@ -1,3 +1,5 @@
+// Copyright 2018 Mehmet Cetin
+
 #include <iostream>
 #include <exception>
 #include "board.hpp"

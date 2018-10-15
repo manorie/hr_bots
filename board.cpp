@@ -1,8 +1,6 @@
 // Copyright 2018 Mehmet Cetin
 
 #include "board.hpp"
-#include <random>
-#include <algorithm>
 
 namespace game {
   void board::set_player(int x, int y) {
@@ -109,9 +107,16 @@ namespace game {
       case clear:
         if (brd.get_cell(player.x, player.y) != dirty) {
           ended = true;
-          return;;
+          return;
         }
         brd.set_cell(player.x, player.y, clean);
+    }
+
+    if (player.x < 0 || player.y < 0) {
+      ended = true;
+    }
+    if (player.x >= brd.get_size_x() || player.y >= brd.get_size_x()) {
+      ended = true;
     }
   }
 

@@ -9,10 +9,6 @@
 /home/ce7inm/Dev/cpp/hr_bots/board.cpp
 board.hpp
 /home/ce7inm/Dev/cpp/hr_bots/board.hpp
-random
--
-algorithm
--
 
 /home/ce7inm/Dev/cpp/hr_bots/board.hpp
 string
@@ -22,6 +18,8 @@ vector
 random
 -
 iostream
+-
+algorithm
 -
 
 /home/ce7inm/Dev/cpp/hr_bots/main.cpp

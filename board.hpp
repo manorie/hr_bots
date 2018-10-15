@@ -1,12 +1,13 @@
 // Copyright 2018 Mehmet Cetin
 
-#ifndef BOTS_GAME_BOARD_HPP_
-#define BOTS_GAME_BOARD_HPP_
+#ifndef BOARD_HPP_
+#define BOARD_HPP_
 
 #include <string>
 #include <vector>
 #include <random>
 #include <iostream>
+#include <algorithm>
 
 namespace game {
 enum cell { dirty, clean };
@@ -63,4 +64,4 @@ class play {
 };
 }  // namespace game
 
-#endif  // BOTS_GAME_HPP_
+#endif  // BOARD_HPP_
