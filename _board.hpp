@@ -7,6 +7,8 @@
 #include <string>
 #include <iostream>
 #include <exception>
+#include <random>
+#include <algorithm>
 
 namespace Game {
 

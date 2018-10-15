@@ -1,6 +1,8 @@
 // Copyright 2018 Mehmet Cetin
 
 #include "board.hpp"
+#include <random>
+#include <algorithm>
 
 namespace game {
   void board::set_player(int x, int y) {

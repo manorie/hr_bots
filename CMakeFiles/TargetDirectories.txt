@@ -1,3 +1,3 @@
-/Users/mcetin/Dev/cpp/hr_rank/bots/CMakeFiles/rebuild_cache.dir
-/Users/mcetin/Dev/cpp/hr_rank/bots/CMakeFiles/edit_cache.dir
-/Users/mcetin/Dev/cpp/hr_rank/bots/CMakeFiles/game.dir
+/home/ce7inm/Dev/cpp/hr_bots/CMakeFiles/rebuild_cache.dir
+/home/ce7inm/Dev/cpp/hr_bots/CMakeFiles/game.dir
+/home/ce7inm/Dev/cpp/hr_bots/CMakeFiles/edit_cache.dir

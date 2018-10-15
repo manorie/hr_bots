@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/mcetin/Dev/cpp/hr_rank/bots/board.cpp
+/home/ce7inm/Dev/cpp/hr_bots/board.cpp
 board.hpp
-/Users/mcetin/Dev/cpp/hr_rank/bots/board.hpp
+/home/ce7inm/Dev/cpp/hr_bots/board.hpp
+random
+-
+algorithm
+-
 
-/Users/mcetin/Dev/cpp/hr_rank/bots/board.hpp
+/home/ce7inm/Dev/cpp/hr_bots/board.hpp
 string
 -
 vector
@@ -19,4 +23,12 @@ random
 -
 iostream
 -
+
+/home/ce7inm/Dev/cpp/hr_bots/main.cpp
+iostream
+-
+exception
+-
+board.hpp
+/home/ce7inm/Dev/cpp/hr_bots/board.hpp
 
