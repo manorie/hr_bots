@@ -5,6 +5,8 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 
 project(game)
 
+set(CMAKE_CXX_CPPCHECK "cppcheck")
+
 add_executable(
   game
   main.cpp
