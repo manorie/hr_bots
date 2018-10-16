@@ -60,15 +60,15 @@ include CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/main.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/main.cpp.o: main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ce7inm/Dev/cpp/hr_bots/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/main.cpp.o"
-	$(CMAKE_COMMAND) -E __run_co_compile --cppcheck=cppcheck --source=/home/ce7inm/Dev/cpp/hr_bots/main.cpp -- /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/main.cpp.o -c /home/ce7inm/Dev/cpp/hr_bots/main.cpp
+	$(CMAKE_COMMAND) -E __run_co_compile --cppcheck=cppcheck --source=/home/ce7inm/Dev/cpp/hr_bots/main.cpp -- /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/main.cpp.o -c /home/ce7inm/Dev/cpp/hr_bots/main.cpp
 
 CMakeFiles/game.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ce7inm/Dev/cpp/hr_bots/main.cpp > CMakeFiles/game.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ce7inm/Dev/cpp/hr_bots/main.cpp > CMakeFiles/game.dir/main.cpp.i
 
 CMakeFiles/game.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ce7inm/Dev/cpp/hr_bots/main.cpp -o CMakeFiles/game.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ce7inm/Dev/cpp/hr_bots/main.cpp -o CMakeFiles/game.dir/main.cpp.s
 
 CMakeFiles/game.dir/main.cpp.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/game.dir/main.cpp.o.provides.build: CMakeFiles/game.dir/main.cpp.o
 CMakeFiles/game.dir/board.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/board.cpp.o: board.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ce7inm/Dev/cpp/hr_bots/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/board.cpp.o"
-	$(CMAKE_COMMAND) -E __run_co_compile --cppcheck=cppcheck --source=/home/ce7inm/Dev/cpp/hr_bots/board.cpp -- /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/board.cpp.o -c /home/ce7inm/Dev/cpp/hr_bots/board.cpp
+	$(CMAKE_COMMAND) -E __run_co_compile --cppcheck=cppcheck --source=/home/ce7inm/Dev/cpp/hr_bots/board.cpp -- /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/board.cpp.o -c /home/ce7inm/Dev/cpp/hr_bots/board.cpp
 
 CMakeFiles/game.dir/board.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/board.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ce7inm/Dev/cpp/hr_bots/board.cpp > CMakeFiles/game.dir/board.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ce7inm/Dev/cpp/hr_bots/board.cpp > CMakeFiles/game.dir/board.cpp.i
 
 CMakeFiles/game.dir/board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/board.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ce7inm/Dev/cpp/hr_bots/board.cpp -o CMakeFiles/game.dir/board.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ce7inm/Dev/cpp/hr_bots/board.cpp -o CMakeFiles/game.dir/board.cpp.s
 
 CMakeFiles/game.dir/board.cpp.o.requires:
 
