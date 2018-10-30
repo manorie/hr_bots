@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ce7inm/Dev/cpp/hr_bots/board.cpp" "/home/ce7inm/Dev/cpp/hr_bots/CMakeFiles/game.dir/board.cpp.o"
-  "/home/ce7inm/Dev/cpp/hr_bots/main.cpp" "/home/ce7inm/Dev/cpp/hr_bots/CMakeFiles/game.dir/main.cpp.o"
+  "/home/mcetin/Dev/cpp/hr_bots/board.cpp" "/home/mcetin/Dev/cpp/hr_bots/CMakeFiles/game.dir/board.cpp.o"
+  "/home/mcetin/Dev/cpp/hr_bots/main.cpp" "/home/mcetin/Dev/cpp/hr_bots/CMakeFiles/game.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

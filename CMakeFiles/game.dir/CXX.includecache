@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/ce7inm/Dev/cpp/hr_bots/board.cpp
+/home/mcetin/Dev/cpp/hr_bots/board.cpp
 board.hpp
-/home/ce7inm/Dev/cpp/hr_bots/board.hpp
+/home/mcetin/Dev/cpp/hr_bots/board.hpp
 
-/home/ce7inm/Dev/cpp/hr_bots/board.hpp
+/home/mcetin/Dev/cpp/hr_bots/board.hpp
 string
 -
 vector
@@ -21,12 +21,6 @@ iostream
 -
 algorithm
 -
-
-/home/ce7inm/Dev/cpp/hr_bots/main.cpp
-iostream
+unordered_map
 -
-exception
--
-board.hpp
-/home/ce7inm/Dev/cpp/hr_bots/board.hpp
 

@@ -53,6 +53,7 @@ namespace game {
             return "o";
           }
       }
+    return "";
   }
 
   void board::print_board() {
@@ -118,6 +119,12 @@ namespace game {
     if (player.x >= brd.get_size_x() || player.y >= brd.get_size_x()) {
       ended = true;
     }
+    if (actions > (brd.get_size_x() * brd.get_size_y()) * 2) {
+      ended = true;
+    }
+    if (dirt_left() == 0) {
+      ended = true;
+    }
   }
 
   int board::get_size_x() {
@@ -126,6 +133,10 @@ namespace game {
 
   int board::get_size_y() {
     return size_y;
+  }
+
+  std::vector<cell> board::get_space() {
+    return space;
   }
 
   int play::dirt_left() {
@@ -142,5 +153,72 @@ namespace game {
 
   bool play::is_ended() {
     return ended;
+  }
+
+  int play::get_brd_size_x() {
+    return brd.get_size_x();
+  }
+
+  int play::get_brd_size_y() {
+    return brd.get_size_y();
+  }
+
+  cell play::get_brd_cell(int x, int y) {
+    return brd.get_cell(x, y);
+  }
+
+  std::vector<cell> play::get_brd_space() {
+    return brd.get_space();
+  }
+
+  position play::get_player_position() {
+    return brd.get_player();
+  }
+
+  int play::actions_count() {
+    return actions;
+  }
+
+  void player::play() {
+    int size_x = ply.get_brd_size_x();
+    int size_y = ply.get_brd_size_y();
+    std::vector<cell> space = ply.get_brd_space();
+    position player_pos = ply.get_player_position();
+    cells_seen[player_pos.to_string()] = true;
+
+    while (!ply.is_ended()) {
+      ply.print_board();
+      std::cout << "Dirt Left: " << ply.dirt_left() << " Actions: " <<
+        ply.actions_count() << std::endl;
+
+      switch (ply.get_brd_cell(player_pos.x, player_pos.y)) {
+        case dirty:
+          ply.move(clear);
+          break;
+        case clean:
+          if (!cells_seen[player_pos.pos_down_string()] && player_pos.x < size_x-1) {
+            ply.move(down);
+            break;
+          }
+
+          if (!cells_seen[player_pos.pos_up_string()] && player_pos.x > 0) {
+            ply.move(up);
+            break;
+          }
+
+          if (!cells_seen[player_pos.pos_right_string()] && player_pos.y < size_y-1) {
+            ply.move(right);
+            break;
+          }
+
+          if (!cells_seen[player_pos.pos_left_string()] && player_pos.y > 0) {
+            ply.move(left);
+            break;
+          }
+          break;
+      }
+
+      player::play();
+    }
   }
 }  // namespace game
